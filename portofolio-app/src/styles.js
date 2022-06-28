@@ -1,7 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const StyledAbout = styled.div`
-  border: 1px solid yellow;
   min-height: 90vh;
   display: flex;
   align-items: center;
@@ -11,18 +11,18 @@ export const StyledAbout = styled.div`
 `;
 
 export const StyledDescription = styled.div`
-  border: 1px solid blue;
   flex: 1;
   padding-right: 5rem;
+  z-index: 2;
   h2 {
     font-weight: lighter;
   }
 `;
 
 export const StyledImage = styled.div`
-  border: 1px solid green;
   flex: 1;
   overflow: hidden;
+  z-index: 2;
   img {
     width: 100%;
     height: 80vh;
@@ -32,5 +32,4 @@ export const StyledImage = styled.div`
 
 export const StyledHide = styled.div`
   overflow: hidden;
-  border: 1px solid purple;
 `;

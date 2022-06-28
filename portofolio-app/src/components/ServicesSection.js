@@ -65,12 +65,11 @@ const StyledServices = styled(StyledAbout)`
 const StyledCards = styled.div`
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid red;
 `;
 
 const StyledCard = styled.div`
   flex-basis: 20rem;
-  border: 1px solid limegreen;
+
   .icon {
     display: flex;
     align-items: center;
